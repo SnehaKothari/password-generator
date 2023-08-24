@@ -13,6 +13,7 @@ const PasswordList = ({ passwords }) => {
           <ListItem key={index}>
             <ListItemText primary={password} className="password-list-name" />
           </ListItem>
+          
         ))}
       </List>
     </div>
